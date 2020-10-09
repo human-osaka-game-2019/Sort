@@ -153,10 +153,8 @@ namespace Sort
         /// </summary>
         /// <param name="i">先頭からの番号</param>
         /// <returns>指定した番号のNumber</returns>
-        public Number this[int i]
-        {
-            get { return this.numbers[i]; }
-        }
+        public Number this[int i] => numbers[i];
+
 
     }
 
