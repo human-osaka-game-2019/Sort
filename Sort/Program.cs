@@ -130,8 +130,7 @@ namespace Sort
                 {                
                     if (numbers[j] < numbers[j - 1])
                     { 
-                        int? temp;
-                        temp = numbers[j].Value;
+                        int? temp = numbers[j].Value;
                         numbers[j] = new Number(numbers[j - 1].Value);
                         numbers[j - 1] = new Number(temp);
                     }
