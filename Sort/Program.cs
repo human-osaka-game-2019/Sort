@@ -141,11 +141,11 @@ namespace Sort
         /// <summary>
         /// 引数で渡された番号にある数字を取得します
         /// </summary>
-        /// <param name="num">先頭からの番号</param>
+        /// <param name="index">index番号</param>
         /// <returns>指定した番号の値</returns>
-        public int? GetNumber(int num)
+        public int? GetNumber(int index)
         {
-            return numbers[num].Value;
+            return numbers[index].Value;
         }
 
         /// <summary>
