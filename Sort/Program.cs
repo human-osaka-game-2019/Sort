@@ -27,18 +27,7 @@ namespace Sort
         /// <summary>
         /// フィールド変数numberがnullなら-1、null以外ならnumberを返します
         /// </summary>
-        public int? Value
-        {
-            get
-            {
-                if (number.HasValue)
-                {
-                    return this.number;
-                }
-
-                return -1;
-            }
-        }
+        public int? Value => number ?? -1;
 
         /// <summary>
         /// intとNumberで暗黙的な変換をできるようにします
