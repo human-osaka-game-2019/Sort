@@ -130,9 +130,9 @@ namespace Sort
         /// <summary>
         /// 引数で渡された番号にあるNumberを取得します
         /// </summary>
-        /// <param name="i">先頭からの番号</param>
+        /// <param name="index">要素番号(zero-based)</param>
         /// <returns>指定した番号のNumber</returns>
-        public Number this[int i] => numbers[i];
+        public Number this[int index] => numbers[index];
 
 
     }
