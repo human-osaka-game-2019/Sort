@@ -128,16 +128,6 @@ namespace Sort
         }
 
         /// <summary>
-        /// 引数で渡された番号にある数字を取得します
-        /// </summary>
-        /// <param name="index">index番号</param>
-        /// <returns>指定した番号の値</returns>
-        public int? GetNumber(int index)
-        {
-            return numbers[index].Value;
-        }
-
-        /// <summary>
         /// 引数で渡された番号にあるNumberを取得します
         /// </summary>
         /// <param name="i">先頭からの番号</param>
@@ -166,7 +156,7 @@ namespace Sort
 
             numbers.Output();
 
-            Console.WriteLine("100番目の番号\n" + numbers.GetNumber(100));
+            Console.WriteLine("100番目の番号\n" + numbers[100].Value);
         }
     }   
 
