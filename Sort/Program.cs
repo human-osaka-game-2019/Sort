@@ -27,7 +27,7 @@ namespace Sort
         /// <summary>
         /// フィールド変数numberがnullなら-1、null以外ならnumberを返します
         /// </summary>
-        public int? Value => number ?? -1;
+        public int Value => number ?? -1;
 
         /// <summary>
         /// intとNumberで暗黙的な変換をできるようにします
