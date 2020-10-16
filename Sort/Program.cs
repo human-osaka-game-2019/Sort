@@ -19,7 +19,7 @@ namespace Sort
         /// 渡された引数の値numで初期化します
         /// </summary>
         /// <param name="num">初期化する値</param>
-        public Number(int? num)
+        public Number(int? num = null)
         {
             number = num;
         }
@@ -154,7 +154,7 @@ namespace Sort
 
                 numbers.Append(random.Next(0,101));
             }
-            numbers.Append(new Number(null));
+            numbers.Append(new Number());
 
             numbers.SortValue();
 
