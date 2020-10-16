@@ -119,9 +119,10 @@ namespace Sort
                 {                
                     if (numbers[j] < numbers[j - 1])
                     { 
-                        int temp = numbers[j].Value;
-                        numbers[j] = new Number(numbers[j - 1].Value);
-                        numbers[j - 1] = new Number(temp);
+                        Number smaller = numbers[j];
+                        Number bigger = numbers[j - 1];
+                        numbers[j - 1] = smaller;
+                        numbers[j] = bigger;
                     }
                 }
             }
@@ -132,8 +133,11 @@ namespace Sort
         /// </summary>
         /// <param name="index">要素番号(zero-based)</param>
         /// <returns>指定した番号のNumber</returns>
-        public Number this[int index] => numbers[index];
-
+        public Number this[int index]
+        {
+            get => numbers[index];
+            private set => numbers[index] = value;
+        }
 
     }
 
