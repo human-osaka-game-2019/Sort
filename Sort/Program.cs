@@ -43,7 +43,7 @@ namespace Sort
         /// </summary>
         /// <param name="lhs">左辺値</param>
         /// <param name="rhs">右辺値</param>
-        /// <returns>true or false</returns>
+        /// <returns>右辺値が左辺値より大きいかどうか</returns>
         public static bool operator< (Number lhs,Number rhs)
         {
             return lhs.Value < rhs.Value;
@@ -53,8 +53,8 @@ namespace Sort
         /// 2つのNumberを比較した結果を返します
         /// </summary>
         /// <param name="lhs">左辺値</param>
-        /// <param name="rhs">左辺値</param>
-        /// <returns>true or false</returns>
+        /// <param name="rhs">右辺値</param>
+        /// <returns>左辺値が右辺値より大きいかどうか</returns>
         public static bool operator> (Number lhs, Number rhs)
         {
             return lhs.Value > rhs.Value;
