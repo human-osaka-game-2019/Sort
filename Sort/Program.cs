@@ -44,7 +44,7 @@ namespace Sort
         /// <param name="lhs">左辺値</param>
         /// <param name="rhs">右辺値</param>
         /// <returns>右辺値が左辺値より大きいかどうか</returns>
-        public static bool operator< (Number lhs,Number rhs)
+        public static bool operator <(Number lhs, Number rhs)
         {
             return lhs.Value < rhs.Value;
         }
@@ -55,7 +55,7 @@ namespace Sort
         /// <param name="lhs">左辺値</param>
         /// <param name="rhs">右辺値</param>
         /// <returns>左辺値が右辺値より大きいかどうか</returns>
-        public static bool operator> (Number lhs, Number rhs)
+        public static bool operator >(Number lhs, Number rhs)
         {
             return lhs.Value > rhs.Value;
         }
@@ -116,9 +116,9 @@ namespace Sort
             for (int i = 0; i < numbers.Count - 1; i++)
             {
                 for (int j = numbers.Count - 1; j >= i + 1; j--)
-                {                
+                {
                     if (numbers[j] < numbers[j - 1])
-                    { 
+                    {
                         Number smaller = numbers[j];
                         Number bigger = numbers[j - 1];
                         numbers[j - 1] = smaller;
@@ -149,10 +149,10 @@ namespace Sort
 
             Random random = new Random();
 
-            for(int i = 0;i < 100;i++)
+            for (int i = 0; i < 100; i++)
             {
 
-                numbers.Append(random.Next(0,101));
+                numbers.Append(random.Next(0, 101));
             }
             numbers.Append(new Number());
 
@@ -162,6 +162,6 @@ namespace Sort
 
             Console.WriteLine("100番目の番号\n" + numbers[100].Value);
         }
-    }   
+    }
 
 }
