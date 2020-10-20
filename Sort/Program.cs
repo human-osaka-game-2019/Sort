@@ -16,7 +16,7 @@ namespace Sort
         private int? number;
 
         /// <summary>
-        /// 渡された引数の値numで初期化します
+        /// 渡された引数の値で初期化します
         /// </summary>
         /// <param name="num">初期化する値</param>
         public Number(int? num = null)
