@@ -102,10 +102,8 @@ namespace Sort
         /// </summary>
         public void Output()
         {
-            numbers.ForEach
-                (
-                    num => Console.WriteLine(num.Value)
-                );
+            numbers.ForEach(
+                    num => Console.WriteLine(num.Value));
         }
 
         /// <summary>
