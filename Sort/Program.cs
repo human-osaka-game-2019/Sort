@@ -28,7 +28,7 @@ namespace Sort
         /// フィールド変数<see cref="number"/>を返します
         /// </summary>
         /// <remarks>
-        /// <see cref="number"/>がnullなら-1、null以外なら<see cref="number"/>を返します
+        /// <see cref="number"/>がnullなら-1を返します
         /// </remarks>
         public int Value => number ?? -1;
 
