@@ -115,13 +115,13 @@ namespace Sort
             {
                 for (int j = numbers.Count - 1; j >= i + 1; j--)
                 {
-                    if (numbers[j] < numbers[j - 1])
-                    {
-                        Number smaller = numbers[j];
-                        Number bigger = numbers[j - 1];
-                        numbers[j - 1] = smaller;
-                        numbers[j] = bigger;
-                    }
+                    if (numbers[j - 1] <= numbers[j]) continue;
+                    
+                    Number smaller = numbers[j];
+                    Number bigger = numbers[j - 1];
+                    numbers[j - 1] = smaller;
+                    numbers[j] = bigger;
+                    
                 }
             }
         }
