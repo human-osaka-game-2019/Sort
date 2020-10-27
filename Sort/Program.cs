@@ -69,7 +69,7 @@ namespace Sort
         /// <summary>
         /// 数字を保持しておく変数
         /// </summary>
-        List<Number> numbers;
+        private List<Number> numbers;
 
         /// <summary>
         /// インスタンス生成時にListを初期化します
