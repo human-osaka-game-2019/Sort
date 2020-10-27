@@ -49,7 +49,7 @@ namespace Sort
         /// <returns>左辺値が右辺値以下かどうか</returns>
         public static bool operator <=(Number lhs, Number rhs)
         {
-            return lhs.Value < rhs.Value;
+            return lhs.Value <= rhs.Value;
         }
 
         /// <summary>
@@ -60,7 +60,7 @@ namespace Sort
         /// <returns>左辺値が右辺値以上かどうか</returns>
         public static bool operator >=(Number lhs, Number rhs)
         {
-            return lhs.Value > rhs.Value;
+            return lhs.Value >= rhs.Value;
         }
     }
 
