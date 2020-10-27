@@ -30,7 +30,7 @@ namespace Sort
         public int Value => number ?? -1;
 
         /// <summary>
-        /// intとNumberで暗黙的な変換をできるようにします
+        /// <see cref="int"/>と<see cref="Number"/>で暗黙的な変換をできるようにします
         /// </summary>
         /// <param name="num">値</param>
         public static implicit operator Number(int num)
@@ -39,7 +39,7 @@ namespace Sort
         }
 
         /// <summary>
-        /// 2つのNumberを比較した結果を返します
+        /// 2つの<see cref="Number"/>を比較した結果を返します
         /// </summary>
         /// <param name="lhs">左辺値</param>
         /// <param name="rhs">右辺値</param>
@@ -50,7 +50,7 @@ namespace Sort
         }
 
         /// <summary>
-        /// 2つのNumberを比較した結果を返します
+        /// 2つの<see cref="Number"/>を比較した結果を返します
         /// </summary>
         /// <param name="lhs">左辺値</param>
         /// <param name="rhs">右辺値</param>
@@ -82,7 +82,7 @@ namespace Sort
         /// <summary>
         /// Listに数字を追加します
         /// </summary>
-        /// <param name="number">追加する数字(int)</param>
+        /// <param name="number">追加する数字(<see cref="int"/>)</param>
         public void Append(int? number)
         {
             numbers.Add(number);
@@ -91,7 +91,7 @@ namespace Sort
         /// <summary>
         /// Listに数字を追加します
         /// </summary>
-        /// <param name="number">追加する数字(Number)</param>
+        /// <param name="number">追加する数字(<see cref="Number"/>)</param>
         public void Append(Number number)
         {
             numbers.Add(number);
@@ -127,10 +127,10 @@ namespace Sort
         }
 
         /// <summary>
-        /// 引数で渡された番号にあるNumberを取得します
+        /// 引数で渡された番号にある<see cref="Number"/>を取得します
         /// </summary>
         /// <param name="index">要素番号(zero-based)</param>
-        /// <returns>指定した番号のNumber</returns>
+        /// <returns>指定した番号の<see cref="Number"/></returns>
         public Number this[int index]
         {
             get => numbers[index];
