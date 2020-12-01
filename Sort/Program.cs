@@ -161,7 +161,9 @@ namespace Sort
 
             numbers.Output();
 
-            Console.WriteLine("100番目の番号" + Environment.NewLine + numbers[100].Value);
+            Console.WriteLine("100番目の番号");
+            Console.WriteLine(numbers[100].Value);
+
         }
     }
 
