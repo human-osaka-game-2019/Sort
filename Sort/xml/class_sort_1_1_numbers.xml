@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_sort_1_1_numbers" kind="class" language="C#" prot="public">
+    <compoundname>Sort::Numbers</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sort_1_1_numbers_1a97f828cdd88796e1d220e1968b383c2a" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_sort_1_1_number" kindref="compound">Number</ref> &gt;</type>
+        <definition>List&lt;Number&gt; Sort.Numbers.numbers</definition>
+        <argsstring></argsstring>
+        <name>numbers</name>
+        <briefdescription>
+<para>数字を保持しておく変数 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="75" column="1" bodyfile="Program.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sort_1_1_numbers_1a41fe024d98bb36a985e6f26c06e72d45" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_sort_1_1_number" kindref="compound">Number</ref></type>
+        <definition>Number Sort.Numbers.this[int index]</definition>
+        <argsstring></argsstring>
+        <name>this[int index]</name>
+        <briefdescription>
+<para>引数で渡された番号にある<ref refid="class_sort_1_1_number" kindref="compound">Number</ref>を取得します </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>要素番号(zero-based)</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>指定した番号の<ref refid="class_sort_1_1_number" kindref="compound">Number</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="137" column="1" bodyfile="Program.cs" bodystart="138" bodyend="141"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sort_1_1_numbers_1ae8dfd0d7e738fee3aad322f1b8d2de58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sort.Numbers.Numbers</definition>
+        <argsstring>()</argsstring>
+        <name>Numbers</name>
+        <briefdescription>
+<para>インスタンス生成時にListを初期化します </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="80" column="1" bodyfile="Program.cs" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sort_1_1_numbers_1a84b570e8dcc77415f32a0bd6afd7143f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sort.Numbers.Append</definition>
+        <argsstring>(int? number)</argsstring>
+        <name>Append</name>
+        <param>
+          <type>int?</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+<para>Listに数字を追加します </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>number</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>追加する数字(int)</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="89" column="1" bodyfile="Program.cs" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sort_1_1_numbers_1a6ab6bac740a0f91010d0b47caabe1a13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sort.Numbers.Append</definition>
+        <argsstring>(Number number)</argsstring>
+        <name>Append</name>
+        <param>
+          <type><ref refid="class_sort_1_1_number" kindref="compound">Number</ref></type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+<para>Listに数字を追加します </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>number</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>追加する数字(<ref refid="class_sort_1_1_number" kindref="compound">Number</ref>)</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="98" column="1" bodyfile="Program.cs" bodystart="98" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sort_1_1_numbers_1a87e884112140441a59f389c487c6531a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sort.Numbers.Output</definition>
+        <argsstring>()</argsstring>
+        <name>Output</name>
+        <briefdescription>
+<para>数列を全てアウトプットします </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="106" column="1" bodyfile="Program.cs" bodystart="106" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sort_1_1_numbers_1a7c32ee166a3da9f1ff77343a490ac3a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sort.Numbers.SortValue</definition>
+        <argsstring>()</argsstring>
+        <name>SortValue</name>
+        <briefdescription>
+<para>数列の数字をソートします </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="115" column="1" bodyfile="Program.cs" bodystart="115" bodyend="130"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>数列を作るクラス </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Program.cs" line="71" column="1" bodyfile="Program.cs" bodystart="70" bodyend="143"/>
+    <listofallmembers>
+      <member refid="class_sort_1_1_numbers_1a84b570e8dcc77415f32a0bd6afd7143f" prot="public" virt="non-virtual"><scope>Sort::Numbers</scope><name>Append</name></member>
+      <member refid="class_sort_1_1_numbers_1a6ab6bac740a0f91010d0b47caabe1a13" prot="public" virt="non-virtual"><scope>Sort::Numbers</scope><name>Append</name></member>
+      <member refid="class_sort_1_1_numbers_1a97f828cdd88796e1d220e1968b383c2a" prot="private" virt="non-virtual"><scope>Sort::Numbers</scope><name>numbers</name></member>
+      <member refid="class_sort_1_1_numbers_1ae8dfd0d7e738fee3aad322f1b8d2de58" prot="public" virt="non-virtual"><scope>Sort::Numbers</scope><name>Numbers</name></member>
+      <member refid="class_sort_1_1_numbers_1a87e884112140441a59f389c487c6531a" prot="public" virt="non-virtual"><scope>Sort::Numbers</scope><name>Output</name></member>
+      <member refid="class_sort_1_1_numbers_1a7c32ee166a3da9f1ff77343a490ac3a9" prot="public" virt="non-virtual"><scope>Sort::Numbers</scope><name>SortValue</name></member>
+      <member refid="class_sort_1_1_numbers_1a41fe024d98bb36a985e6f26c06e72d45" prot="public" virt="non-virtual"><scope>Sort::Numbers</scope><name>this[int index]</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

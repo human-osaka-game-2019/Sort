@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.15">
+  <compound refid="class_sort_1_1_number" kind="class"><name>Sort::Number</name>
+    <member refid="class_sort_1_1_number_1abeed41281aaee2088a15a408b918dfc1" kind="variable"><name>number</name></member>
+    <member refid="class_sort_1_1_number_1a533c50bc1411b74bfec6462140517b5b" kind="variable"><name>Value</name></member>
+    <member refid="class_sort_1_1_number_1abe7537f715c9979b57ee48dea09a82d9" kind="function"><name>Number</name></member>
+    <member refid="class_sort_1_1_number_1ab76932fe3e42cfef2f8c2325eba048c7" kind="function"><name>operator Number</name></member>
+    <member refid="class_sort_1_1_number_1a3d1689f94b8f6527bbdce2cc619c3a9f" kind="function"><name>operator&lt;=</name></member>
+    <member refid="class_sort_1_1_number_1ab117a9c807d75be0795d7787c0aa2f0f" kind="function"><name>operator &gt;=</name></member>
+  </compound>
+  <compound refid="class_sort_1_1_numbers" kind="class"><name>Sort::Numbers</name>
+    <member refid="class_sort_1_1_numbers_1a97f828cdd88796e1d220e1968b383c2a" kind="variable"><name>numbers</name></member>
+    <member refid="class_sort_1_1_numbers_1a41fe024d98bb36a985e6f26c06e72d45" kind="property"><name>this[int index]</name></member>
+    <member refid="class_sort_1_1_numbers_1ae8dfd0d7e738fee3aad322f1b8d2de58" kind="function"><name>Numbers</name></member>
+    <member refid="class_sort_1_1_numbers_1a84b570e8dcc77415f32a0bd6afd7143f" kind="function"><name>Append</name></member>
+    <member refid="class_sort_1_1_numbers_1a6ab6bac740a0f91010d0b47caabe1a13" kind="function"><name>Append</name></member>
+    <member refid="class_sort_1_1_numbers_1a87e884112140441a59f389c487c6531a" kind="function"><name>Output</name></member>
+    <member refid="class_sort_1_1_numbers_1a7c32ee166a3da9f1ff77343a490ac3a9" kind="function"><name>SortValue</name></member>
+  </compound>
+  <compound refid="class_sort_1_1_program" kind="class"><name>Sort::Program</name>
+    <member refid="class_sort_1_1_program_1a934474473457f6d54c87f2ee7873f411" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="namespace_sort" kind="namespace"><name>Sort</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="_debug_2netcoreapp3_81_2_8_n_e_t_core_app_00_version_0Av3_81_8_assembly_attributes_8cs" kind="file"><name>Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_release_2netcoreapp3_81_2_8_n_e_t_core_app_00_version_0Av3_81_8_assembly_attributes_8cs" kind="file"><name>Release/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_debug_2netcoreapp3_81_2_sort_8_assembly_info_8cs" kind="file"><name>Debug/netcoreapp3.1/Sort.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_release_2netcoreapp3_81_2_sort_8_assembly_info_8cs" kind="file"><name>Release/netcoreapp3.1/Sort.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="dir_a71c3b2ad23b9ff58220dd012d201987" kind="dir"><name>Debug</name>
+  </compound>
+  <compound refid="dir_5680f67167d3eab7c75cd105c94ce62b" kind="dir"><name>netcoreapp3.1</name>
+  </compound>
+  <compound refid="dir_2c96edb042fae57dc7a0aa62cecc9bd4" kind="dir"><name>netcoreapp3.1</name>
+  </compound>
+  <compound refid="dir_43724e81dd40e09f32417973865cdd64" kind="dir"><name>obj</name>
+  </compound>
+  <compound refid="dir_9fe5cc214b8578ee5b8e153089aca810" kind="dir"><name>Release</name>
+  </compound>
+</doxygenindex>

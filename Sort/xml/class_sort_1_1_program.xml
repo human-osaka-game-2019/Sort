@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_sort_1_1_program" kind="class" language="C#" prot="public">
+    <compoundname>Sort::Program</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_sort_1_1_program_1a934474473457f6d54c87f2ee7873f411" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Sort.Program.Main</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>Main</name>
+        <param>
+          <type>string []</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="147" column="1" bodyfile="Program.cs" bodystart="147" bodyend="167"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Program.cs" line="146" column="1" bodyfile="Program.cs" bodystart="145" bodyend="168"/>
+    <listofallmembers>
+      <member refid="class_sort_1_1_program_1a934474473457f6d54c87f2ee7873f411" prot="private" virt="non-virtual"><scope>Sort::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

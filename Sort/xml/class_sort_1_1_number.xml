@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_sort_1_1_number" kind="class" language="C#" prot="public">
+    <compoundname>Sort::Number</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sort_1_1_number_1abeed41281aaee2088a15a408b918dfc1" prot="private" static="no" mutable="no">
+        <type>int?</type>
+        <definition>int? Sort.Number.number</definition>
+        <argsstring></argsstring>
+        <name>number</name>
+        <briefdescription>
+<para>数字を保存しておく変数 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="16" column="1" bodyfile="Program.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_sort_1_1_number_1a533c50bc1411b74bfec6462140517b5b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sort.Number.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <initializer>=&gt; <ref refid="class_sort_1_1_number_1abeed41281aaee2088a15a408b918dfc1" kindref="member">number</ref> ?? -1</initializer>
+        <briefdescription>
+<para>フィールド変数<ref refid="class_sort_1_1_number_1abeed41281aaee2088a15a408b918dfc1" kindref="member">number</ref>を返します </para>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="class_sort_1_1_number_1abeed41281aaee2088a15a408b918dfc1" kindref="member">number</ref>がnullなら-1を返します </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="33" column="1" bodyfile="Program.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sort_1_1_number_1abe7537f715c9979b57ee48dea09a82d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sort.Number.Number</definition>
+        <argsstring>(int? num=null)</argsstring>
+        <name>Number</name>
+        <param>
+          <type>int?</type>
+          <declname>num</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>渡された引数の値で初期化します </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>初期化する値</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="22" column="1" bodyfile="Program.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_sort_1_1_number_1ab76932fe3e42cfef2f8c2325eba048c7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit Sort.Number.operator Number</definition>
+        <argsstring>(int num)</argsstring>
+        <name>operator Number</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+<para>intと<ref refid="class_sort_1_1_number" kindref="compound">Number</ref>で暗黙的な変換をできるようにします </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>値</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="39" column="1" bodyfile="Program.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sort_1_1_number_1a3d1689f94b8f6527bbdce2cc619c3a9f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Sort.Number.operator&lt;=</definition>
+        <argsstring>(Number lhs, Number rhs)</argsstring>
+        <name>operator&lt;=</name>
+        <param>
+          <type><ref refid="class_sort_1_1_number" kindref="compound">Number</ref></type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sort_1_1_number" kindref="compound">Number</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>2つの<ref refid="class_sort_1_1_number" kindref="compound">Number</ref>を比較した結果を返します </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>左辺値</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>右辺値</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>左辺値が右辺値以下かどうか</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="50" column="1" bodyfile="Program.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sort_1_1_number_1ab117a9c807d75be0795d7787c0aa2f0f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Sort.Number.operator &gt;=</definition>
+        <argsstring>(Number lhs, Number rhs)</argsstring>
+        <name>operator &gt;=</name>
+        <param>
+          <type><ref refid="class_sort_1_1_number" kindref="compound">Number</ref></type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sort_1_1_number" kindref="compound">Number</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>2つの<ref refid="class_sort_1_1_number" kindref="compound">Number</ref>を比較した結果を返します </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>左辺値</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>右辺値</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>左辺値が右辺値以上かどうか</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="61" column="1" bodyfile="Program.cs" bodystart="61" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>数字を格納するクラス </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Program.cs" line="12" column="1" bodyfile="Program.cs" bodystart="11" bodyend="65"/>
+    <listofallmembers>
+      <member refid="class_sort_1_1_number_1abeed41281aaee2088a15a408b918dfc1" prot="private" virt="non-virtual"><scope>Sort::Number</scope><name>number</name></member>
+      <member refid="class_sort_1_1_number_1abe7537f715c9979b57ee48dea09a82d9" prot="public" virt="non-virtual"><scope>Sort::Number</scope><name>Number</name></member>
+      <member refid="class_sort_1_1_number_1ab117a9c807d75be0795d7787c0aa2f0f" prot="public" virt="non-virtual"><scope>Sort::Number</scope><name>operator &gt;=</name></member>
+      <member refid="class_sort_1_1_number_1ab76932fe3e42cfef2f8c2325eba048c7" prot="public" virt="non-virtual"><scope>Sort::Number</scope><name>operator Number</name></member>
+      <member refid="class_sort_1_1_number_1a3d1689f94b8f6527bbdce2cc619c3a9f" prot="public" virt="non-virtual"><scope>Sort::Number</scope><name>operator&lt;=</name></member>
+      <member refid="class_sort_1_1_number_1a533c50bc1411b74bfec6462140517b5b" prot="public" virt="non-virtual"><scope>Sort::Number</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
