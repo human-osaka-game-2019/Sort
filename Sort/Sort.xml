@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sort</name>
+    </assembly>
+    <members>
+        <member name="T:Sort.Number">
+            <summary>
+            数字を格納するクラス
+            </summary>
+        </member>
+        <member name="F:Sort.Number.number">
+            <summary>
+            数字を保存しておく変数
+            </summary>
+        </member>
+        <member name="M:Sort.Number.#ctor(System.Nullable{System.Int32})">
+            <summary>
+            渡された引数の値で初期化します
+            </summary>
+            <param name="num">初期化する値</param>
+        </member>
+        <member name="P:Sort.Number.Value">
+            <summary>
+            フィールド変数<see cref="F:Sort.Number.number"/>を返します
+            </summary>
+            <remarks>
+            <see cref="F:Sort.Number.number"/>がnullなら-1を返します
+            </remarks>
+        </member>
+        <member name="M:Sort.Number.op_Implicit(System.Int32)~Sort.Number">
+            <summary>
+            <see cref="T:System.Int32"/>と<see cref="T:Sort.Number"/>で暗黙的な変換をできるようにします
+            </summary>
+            <param name="num">値</param>
+        </member>
+        <member name="M:Sort.Number.op_LessThanOrEqual(Sort.Number,Sort.Number)">
+            <summary>
+            2つの<see cref="T:Sort.Number"/>を比較した結果を返します
+            </summary>
+            <param name="lhs">左辺値</param>
+            <param name="rhs">右辺値</param>
+            <returns>左辺値が右辺値以下かどうか</returns>
+        </member>
+        <member name="M:Sort.Number.op_GreaterThanOrEqual(Sort.Number,Sort.Number)">
+            <summary>
+            2つの<see cref="T:Sort.Number"/>を比較した結果を返します
+            </summary>
+            <param name="lhs">左辺値</param>
+            <param name="rhs">右辺値</param>
+            <returns>左辺値が右辺値以上かどうか</returns>
+        </member>
+        <member name="T:Sort.Numbers">
+            <summary>
+            数列を作るクラス
+            </summary>
+        </member>
+        <member name="F:Sort.Numbers.numbers">
+            <summary>
+            数字を保持しておく変数
+            </summary>
+        </member>
+        <member name="M:Sort.Numbers.#ctor">
+            <summary>
+            インスタンス生成時にListを初期化します
+            </summary>
+        </member>
+        <member name="M:Sort.Numbers.Append(System.Nullable{System.Int32})">
+            <summary>
+            Listに数字を追加します
+            </summary>
+            <param name="number">追加する数字(<see cref="T:System.Int32"/>)</param>
+        </member>
+        <member name="M:Sort.Numbers.Append(Sort.Number)">
+            <summary>
+            Listに数字を追加します
+            </summary>
+            <param name="number">追加する数字(<see cref="T:Sort.Number"/>)</param>
+        </member>
+        <member name="M:Sort.Numbers.Output">
+            <summary>
+            数列を全てアウトプットします
+            </summary>
+        </member>
+        <member name="M:Sort.Numbers.SortValue">
+            <summary>
+            数列の数字をソートします
+            </summary>
+        </member>
+        <member name="P:Sort.Numbers.Item(System.Int32)">
+            <summary>
+            引数で渡された番号にある<see cref="T:Sort.Number"/>を取得します
+            </summary>
+            <param name="index">要素番号(zero-based)</param>
+            <returns>指定した番号の<see cref="T:Sort.Number"/></returns>
+        </member>
+    </members>
+</doc>
