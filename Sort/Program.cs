@@ -25,7 +25,7 @@ namespace Sort
         }
 
         /// <summary>
-        /// フィールド変数<see cref="number"/>を返します
+        /// <see cref="number"/>の値を返します
         /// </summary>
         /// <remarks>
         /// <see cref="number"/>がnullなら-1を返します
