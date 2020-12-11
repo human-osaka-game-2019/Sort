@@ -1,0 +1,172 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Sort
+  name: Sort
+  href: api/Sort.html
+  commentId: N:Sort
+  fullName: Sort
+  nameWithType: Sort
+- uid: Sort.Number
+  name: Number
+  href: api/Sort.Number.html
+  commentId: T:Sort.Number
+  fullName: Sort.Number
+  nameWithType: Number
+- uid: Sort.Number.#ctor(System.Nullable{System.Int32})
+  name: Number(Nullable<Int32>)
+  href: api/Sort.Number.html#Sort_Number__ctor_System_Nullable_System_Int32__
+  commentId: M:Sort.Number.#ctor(System.Nullable{System.Int32})
+  name.vb: Number(Nullable(Of Int32))
+  fullName: Sort.Number.Number(System.Nullable<System.Int32>)
+  fullName.vb: Sort.Number.Number(System.Nullable(Of System.Int32))
+  nameWithType: Number.Number(Nullable<Int32>)
+  nameWithType.vb: Number.Number(Nullable(Of Int32))
+- uid: Sort.Number.#ctor*
+  name: Number
+  href: api/Sort.Number.html#Sort_Number__ctor_
+  commentId: Overload:Sort.Number.#ctor
+  isSpec: "True"
+  fullName: Sort.Number.Number
+  nameWithType: Number.Number
+- uid: Sort.Number.op_GreaterThanOrEqual(Sort.Number,Sort.Number)
+  name: GreaterThanOrEqual(Number, Number)
+  href: api/Sort.Number.html#Sort_Number_op_GreaterThanOrEqual_Sort_Number_Sort_Number_
+  commentId: M:Sort.Number.op_GreaterThanOrEqual(Sort.Number,Sort.Number)
+  fullName: Sort.Number.GreaterThanOrEqual(Sort.Number, Sort.Number)
+  nameWithType: Number.GreaterThanOrEqual(Number, Number)
+- uid: Sort.Number.op_GreaterThanOrEqual*
+  name: GreaterThanOrEqual
+  href: api/Sort.Number.html#Sort_Number_op_GreaterThanOrEqual_
+  commentId: Overload:Sort.Number.op_GreaterThanOrEqual
+  isSpec: "True"
+  fullName: Sort.Number.GreaterThanOrEqual
+  nameWithType: Number.GreaterThanOrEqual
+- uid: Sort.Number.op_Implicit(System.Int32)~Sort.Number
+  name: Implicit(Int32 to Number)
+  href: api/Sort.Number.html#Sort_Number_op_Implicit_System_Int32__Sort_Number
+  commentId: M:Sort.Number.op_Implicit(System.Int32)~Sort.Number
+  name.vb: Widening(Int32 to Number)
+  fullName: Sort.Number.Implicit(System.Int32 to Sort.Number)
+  fullName.vb: Sort.Number.Widening(System.Int32 to Sort.Number)
+  nameWithType: Number.Implicit(Int32 to Number)
+  nameWithType.vb: Number.Widening(Int32 to Number)
+- uid: Sort.Number.op_Implicit*
+  name: Implicit
+  href: api/Sort.Number.html#Sort_Number_op_Implicit_
+  commentId: Overload:Sort.Number.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Sort.Number.Implicit
+  fullName.vb: Sort.Number.Widening
+  nameWithType: Number.Implicit
+  nameWithType.vb: Number.Widening
+- uid: Sort.Number.op_LessThanOrEqual(Sort.Number,Sort.Number)
+  name: LessThanOrEqual(Number, Number)
+  href: api/Sort.Number.html#Sort_Number_op_LessThanOrEqual_Sort_Number_Sort_Number_
+  commentId: M:Sort.Number.op_LessThanOrEqual(Sort.Number,Sort.Number)
+  fullName: Sort.Number.LessThanOrEqual(Sort.Number, Sort.Number)
+  nameWithType: Number.LessThanOrEqual(Number, Number)
+- uid: Sort.Number.op_LessThanOrEqual*
+  name: LessThanOrEqual
+  href: api/Sort.Number.html#Sort_Number_op_LessThanOrEqual_
+  commentId: Overload:Sort.Number.op_LessThanOrEqual
+  isSpec: "True"
+  fullName: Sort.Number.LessThanOrEqual
+  nameWithType: Number.LessThanOrEqual
+- uid: Sort.Number.Value
+  name: Value
+  href: api/Sort.Number.html#Sort_Number_Value
+  commentId: P:Sort.Number.Value
+  fullName: Sort.Number.Value
+  nameWithType: Number.Value
+- uid: Sort.Number.Value*
+  name: Value
+  href: api/Sort.Number.html#Sort_Number_Value_
+  commentId: Overload:Sort.Number.Value
+  isSpec: "True"
+  fullName: Sort.Number.Value
+  nameWithType: Number.Value
+- uid: Sort.Numbers
+  name: Numbers
+  href: api/Sort.Numbers.html
+  commentId: T:Sort.Numbers
+  fullName: Sort.Numbers
+  nameWithType: Numbers
+- uid: Sort.Numbers.#ctor
+  name: Numbers()
+  href: api/Sort.Numbers.html#Sort_Numbers__ctor
+  commentId: M:Sort.Numbers.#ctor
+  fullName: Sort.Numbers.Numbers()
+  nameWithType: Numbers.Numbers()
+- uid: Sort.Numbers.#ctor*
+  name: Numbers
+  href: api/Sort.Numbers.html#Sort_Numbers__ctor_
+  commentId: Overload:Sort.Numbers.#ctor
+  isSpec: "True"
+  fullName: Sort.Numbers.Numbers
+  nameWithType: Numbers.Numbers
+- uid: Sort.Numbers.Append(Sort.Number)
+  name: Append(Number)
+  href: api/Sort.Numbers.html#Sort_Numbers_Append_Sort_Number_
+  commentId: M:Sort.Numbers.Append(Sort.Number)
+  fullName: Sort.Numbers.Append(Sort.Number)
+  nameWithType: Numbers.Append(Number)
+- uid: Sort.Numbers.Append(System.Nullable{System.Int32})
+  name: Append(Nullable<Int32>)
+  href: api/Sort.Numbers.html#Sort_Numbers_Append_System_Nullable_System_Int32__
+  commentId: M:Sort.Numbers.Append(System.Nullable{System.Int32})
+  name.vb: Append(Nullable(Of Int32))
+  fullName: Sort.Numbers.Append(System.Nullable<System.Int32>)
+  fullName.vb: Sort.Numbers.Append(System.Nullable(Of System.Int32))
+  nameWithType: Numbers.Append(Nullable<Int32>)
+  nameWithType.vb: Numbers.Append(Nullable(Of Int32))
+- uid: Sort.Numbers.Append*
+  name: Append
+  href: api/Sort.Numbers.html#Sort_Numbers_Append_
+  commentId: Overload:Sort.Numbers.Append
+  isSpec: "True"
+  fullName: Sort.Numbers.Append
+  nameWithType: Numbers.Append
+- uid: Sort.Numbers.Item(System.Int32)
+  name: Item[Int32]
+  href: api/Sort.Numbers.html#Sort_Numbers_Item_System_Int32_
+  commentId: P:Sort.Numbers.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: Sort.Numbers.Item[System.Int32]
+  fullName.vb: Sort.Numbers.Item(System.Int32)
+  nameWithType: Numbers.Item[Int32]
+  nameWithType.vb: Numbers.Item(Int32)
+- uid: Sort.Numbers.Item*
+  name: Item
+  href: api/Sort.Numbers.html#Sort_Numbers_Item_
+  commentId: Overload:Sort.Numbers.Item
+  isSpec: "True"
+  fullName: Sort.Numbers.Item
+  nameWithType: Numbers.Item
+- uid: Sort.Numbers.Output
+  name: Output()
+  href: api/Sort.Numbers.html#Sort_Numbers_Output
+  commentId: M:Sort.Numbers.Output
+  fullName: Sort.Numbers.Output()
+  nameWithType: Numbers.Output()
+- uid: Sort.Numbers.Output*
+  name: Output
+  href: api/Sort.Numbers.html#Sort_Numbers_Output_
+  commentId: Overload:Sort.Numbers.Output
+  isSpec: "True"
+  fullName: Sort.Numbers.Output
+  nameWithType: Numbers.Output
+- uid: Sort.Numbers.SortValue
+  name: SortValue()
+  href: api/Sort.Numbers.html#Sort_Numbers_SortValue
+  commentId: M:Sort.Numbers.SortValue
+  fullName: Sort.Numbers.SortValue()
+  nameWithType: Numbers.SortValue()
+- uid: Sort.Numbers.SortValue*
+  name: SortValue
+  href: api/Sort.Numbers.html#Sort_Numbers_SortValue_
+  commentId: Overload:Sort.Numbers.SortValue
+  isSpec: "True"
+  fullName: Sort.Numbers.SortValue
+  nameWithType: Numbers.SortValue
